@@ -1,0 +1,215 @@
+body {
+  background-image: url(Images/Templates-x\ -\ Wallpapers-Light.png);
+  background-repeat: no-repeat;
+  margin:0px ;
+  
+}
+.name {
+  font-family: AppleFont;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 3px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1300px auto;
+  grid-template-rows: 24px auto;
+  margin: 0px;
+  height: 820px;
+}
+
+.side-panel {
+  display: grid;
+  grid-template-rows: 23px auto;
+  margin-bottom: 50px;
+}
+
+.notside-panel {
+  display: grid;
+  grid-template-rows: auto 75px;
+  
+}
+.dock-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  background-color: rgb(94,110,175,0.5);
+  border-radius: 40px;
+  
+
+}
+
+.folders-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end, stretch;
+  position: relative;
+  
+  justify-content: space-around;
+  
+  
+}
+
+
+ @font-face{
+   font-family: AppleFont;
+   src: url(SF-Pro-Rounded-Light.otf);
+ }
+
+ .text {
+  text-align: center;
+  font-family: AppleFont;
+  color: white;
+}
+
+
+
+.folder {
+  position: relative;
+  top: 0;
+  transition: top ease-in-out .5s;
+  padding-bottom: 10px;
+  margin-bottom: 19px;
+}
+.folder:hover {
+  top: -20px;
+}
+.dock {
+  position: relative;
+  top: 0;
+  transition: top ease-in-out .4s;
+}
+.dock:hover {
+  top: -20px;
+  position: relative;
+  
+}
+.note {
+  display: flex;
+  justify-content: center;
+}
+.divider {
+  opacity: .7;
+}
+
+.menubar {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+.menubarpic {
+  object-fit: contain;
+}
+
+.notepad-wrapper {
+  display: grid;
+  grid-template-columns: 100px 700px auto ;
+  grid-template-rows: 180px 40px  476px auto;
+}
+
+
+.notepad {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: aliceblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.notepad-header {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(213, 168, 37);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notepad-buttons {
+  padding-left: 10px;
+}
+.notepad-header-title {
+  font-family: AppleFont;
+  color: white;
+  font-size: 25px;
+}
+.right-side {
+  opacity: 0;
+  padding-right: 10px;
+
+}
+
+.notepad-text {
+  font-family: AppleFont;
+  color: rgb(53,53,53);
+  font-size: 21px
+}
+
+.notepad-text > p {
+  display: inline-block;
+  line-height: 1.75;
+ 
+}
+
+
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 21px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
