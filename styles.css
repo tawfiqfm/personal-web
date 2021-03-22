@@ -101,7 +101,8 @@ align-content: space-around;
 
 
 .menubarpic {
-  object-fit: cover;
+  height: 100vw;
+  width: 3.0487vh;
 }
 
 .notepad-wrapper {
