@@ -99,13 +99,9 @@ align-content: space-around;
   opacity: .7;
 }
 
-.menubar {
-  max-height: 100%;
-  max-width: 100%;
-  display: block;
-}
+
 .menubarpic {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .notepad-wrapper {
