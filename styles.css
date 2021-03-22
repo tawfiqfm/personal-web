@@ -103,7 +103,7 @@ align-content: space-around;
   width: 100vw;
 }
 .menubarpic {
-  width: 100vw;
+  object-fit: cover;
 }
 
 .notepad-wrapper {
