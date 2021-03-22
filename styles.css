@@ -99,10 +99,11 @@ align-content: space-around;
   opacity: .7;
 }
 
-
+.menubar {
+  width: 100vw;
+}
 .menubarpic {
-  height: 100vw;
-  width: 3.0487vh;
+  width: 100vw;
 }
 
 .notepad-wrapper {
