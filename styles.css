@@ -96,6 +96,8 @@ align-content: space-around;
   position: relative;
   top: 0;
   transition: top ease-in-out .4s;
+  height: 100%;
+  width: 5.2083%;
 }
 .dock:hover {
   top: -25.31%;
