@@ -188,6 +188,11 @@ align-self: center;
  
 }
 
+.divider > img {
+  width: 0.0694vw;
+  height: 6.707vh;
+}
+
 
 
 .blinking-cursor {
