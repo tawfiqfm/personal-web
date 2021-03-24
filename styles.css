@@ -20,7 +20,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 90.27% auto;
-  grid-template-rows: 4.5% auto;
+  grid-template-rows: 2.7% auto;
   margin: 0px;
   height: inherit;
 }
