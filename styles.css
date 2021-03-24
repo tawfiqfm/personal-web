@@ -130,7 +130,7 @@ align-self: center;
   height: 96.66%;
   display: grid;
   grid-template-columns: 7.69% 53.85% auto ;
-  grid-template-rows: 180px 40px  476px auto;
+  grid-template-rows: 25.714% 5.714%  68% auto;
 }
 
 
@@ -184,7 +184,7 @@ align-self: center;
 
 .blinking-cursor {
   font-weight: 100;
-  font-size: 21px;
+  font-size: 1.24em;
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
