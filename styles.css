@@ -113,6 +113,9 @@ align-content: space-around;
 .menubar {
 width: 88vw;
 }
+.menubar > img {
+  width: 100vw;
+}
 .name {
 margin-right: 2%;
 align-self: center;
