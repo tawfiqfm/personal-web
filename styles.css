@@ -13,16 +13,27 @@ body {
 .name {
   font-family: AppleFont;
   color: rgba(255, 255, 255, 0.75);
-  margin-top: 2%;
+ 
+
 }
 
 .container {
   display: grid;
   grid-template-columns: 90.27% auto;
-  grid-template-rows: 3.018% auto;
+  grid-template-rows: 4.5% auto;
   margin: 0px;
   height: inherit;
 }
+.topbar {
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
 
 .side-panel {
 display: flex;
@@ -100,10 +111,14 @@ align-content: space-around;
 }
 
 .menubar {
-  width: 100vw;
-  background-image: url(Images/Scroll\ Group\ 1.png);
-  background-size: cover;
+width: 88%;
 }
+.name {
+margin-right: 2%;
+align-self: center;
+}
+
+
 
 .notepad-wrapper {
   height: 96.66%;
