@@ -138,8 +138,8 @@ align-self: center;
   grid-column: 2;
   grid-row: 3;
   background-color: aliceblue;
-  border-bottom-left-radius: 2%;
-  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
   padding-left: 10px;
   padding-top: 10px;
 
@@ -148,14 +148,22 @@ align-self: center;
   grid-column: 2;
   grid-row: 2;
   background-color: rgb(213, 168, 37);
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .notepad-buttons {
-  padding-left: 10px;
+  padding-left: 10px; 
+}
+.notepad-buttons > img {
+  width: 3.611vw;
+  height: 1.4634vh;
+}
+.right-side > img {
+  width: 3.611vw;
+  height: 1.4634vh;
 }
 .notepad-header-title {
   font-family: AppleFont;
