@@ -1,7 +1,9 @@
 html {
   height: 100vh;
   width: 100vw;
+  font-size: 1.5vw;
 }
+
 
 body {
   background-image: url(Images/Templates-x\ -\ Wallpapers-Light.png);
@@ -13,8 +15,7 @@ body {
 .name {
   font-family: AppleFont;
   color: rgba(255, 255, 255, 0.75);
- 
-
+ font-size: .75em;
 }
 
 .container {
@@ -159,7 +160,7 @@ align-self: center;
 .notepad-header-title {
   font-family: AppleFont;
   color: white;
-  font-size: 25px;
+  font-size: 1.5em;
 }
 .right-side {
   opacity: 0;
@@ -170,7 +171,7 @@ align-self: center;
 .notepad-text {
   font-family: AppleFont;
   color: rgb(53,53,53);
-  font-size: 21px
+  font-size: 1.24em;
 }
 
 .notepad-text > p {
