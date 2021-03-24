@@ -101,9 +101,8 @@ align-content: space-around;
 
 .menubar {
   width: 100vw;
-}
-.menubarpic {
-  object-fit: cover;
+  background-image: url(Images/Scroll\ Group\ 1.png);
+  background-size: cover;
 }
 
 .notepad-wrapper {
